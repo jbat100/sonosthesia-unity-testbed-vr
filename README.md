@@ -3,9 +3,32 @@
 
 ### XR Toolkit
 
-XRController script does not have the default actions connected. Go to the preset slider at the top right of the component inspector
+If XRController script does not have the default actions connected. Go to the preset slider at the top right of the component inspector. 
 
 
+## Roadmap
+
+
+Mode based setup for the following
+
+### Create physics based effectors
+
+- Hand interactors, one collider per knuckle, grouped by finger
+- Hand interactors, one collider per finger tip
+- Controller interactors with simplified two finger hand 
+- 
+
+### Determine priority and inhibition strategies
+
+- Triggering note should happen per group 
+
+### Advanced physics monitoring and descriptors
+
+### XR Toolkit integration
+
+https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/extending-xri.html
+
+Interactors and Interactables both have various event callbacks that can be used to drive reactions to interaction state changes. Experiment with both Interactor and  Interactable centered note control.
 
 ## Quest 
 

@@ -1,0 +1,87 @@
+﻿Seems like RTX 4070 supports DXR
+https://twitter.com/_kzr/status/1696522522244866360
+https://github.com/keijiro/Khoreo
+
+While installing Oculus
+
+C:\Windows\system32>winsat disk -drive c
+Windows System Assessment Tool
+> Running: Feature Enumeration ''
+> Run Time 00:00:00.00
+> Running: Storage Assessment '-drive c -ran -read'
+> Run Time 00:00:43.22
+> Running: Storage Assessment '-drive c -seq -read'
+> Run Time 00:01:32.86
+> Running: Storage Assessment '-drive c -seq -write'
+> Run Time 00:00:39.14
+> Running: Storage Assessment '-drive c -flush -seq'
+> Run Time 00:02:24.16
+> Running: Storage Assessment '-drive c -flush -ran'
+> Run Time 00:01:53.52
+> Dshow Video Encode Time                      0.00000 s
+> Dshow Video Decode Time                      0.00000 s
+> Media Foundation Decode Time                 0.00000 s
+> Disk  Random 16.0 Read                       1.22 MB/s          3.4
+> Disk  Sequential 64.0 Read                   190.44 MB/s          7.3
+> Disk  Sequential 64.0 Write                  178.17 MB/s          7.2
+> Average Read Time with Sequential Writes     7.835 ms          5.1
+> Latency: 95th Percentile                     18.370 ms          4.7
+> Latency: Maximum                             261.641 ms          7.1
+> Average Read Time with Random Writes         8.466 ms          4.9
+> Total Run Time 00:07:29.69
+
+While at rest
+
+C:\Windows\system32>winsat disk -drive c
+Windows System Assessment Tool
+> Running: Feature Enumeration ''
+> Run Time 00:00:00.00
+> Running: Storage Assessment '-drive c -ran -read'
+> Run Time 00:00:14.38
+> Running: Storage Assessment '-drive c -seq -read'
+> Run Time 00:00:12.69
+> Running: Storage Assessment '-drive c -seq -write'
+> Run Time 00:00:08.56
+> Running: Storage Assessment '-drive c -flush -seq'
+> Run Time 00:00:07.22
+> Running: Storage Assessment '-drive c -flush -ran'
+> Run Time 00:00:16.44
+> Dshow Video Encode Time                      0.00000 s
+> Dshow Video Decode Time                      0.00000 s
+> Media Foundation Decode Time                 0.00000 s
+> Disk  Random 16.0 Read                       1.39 MB/s          3.8
+> Disk  Sequential 64.0 Read                   194.47 MB/s          7.3
+> Disk  Sequential 64.0 Write                  194.28 MB/s          7.3
+> Average Read Time with Sequential Writes     5.586 ms          5.8
+> Latency: 95th Percentile                     23.268 ms          4.3
+> Latency: Maximum                             113.700 ms          7.6
+> Average Read Time with Random Writes         8.473 ms          4.9
+> Total Run Time 00:01:06.36
+
+C:\Windows\system32>winsat disk -drive g
+Windows System Assessment Tool
+> Running: Feature Enumeration ''
+> Run Time 00:00:00.00
+> Running: Storage Assessment '-drive g -ran -read'
+> Run Time 00:00:01.49
+> Running: Storage Assessment '-drive g -seq -read'
+> Run Time 00:00:07.20
+> Running: Storage Assessment '-drive g -seq -write'
+> Run Time 00:00:04.97
+> Running: Storage Assessment '-drive g -flush -seq'
+> Run Time 00:00:00.89
+> Running: Storage Assessment '-drive g -flush -ran'
+> Run Time 00:00:00.91
+> Dshow Video Encode Time                      0.00000 s
+> Dshow Video Decode Time                      0.00000 s
+> Media Foundation Decode Time                 0.00000 s
+> Disk  Random 16.0 Read                       144.55 MB/s          7.4
+> Disk  Sequential 64.0 Read                   466.81 MB/s          8.1
+> Disk  Sequential 64.0 Write                  496.12 MB/s          8.1
+> Average Read Time with Sequential Writes     0.190 ms          8.6
+> Latency: 95th Percentile                     0.371 ms          8.8
+> Latency: Maximum                             2.942 ms          8.7
+> Average Read Time with Random Writes         0.194 ms          8.9
+> Total Run Time 00:00:21.94
+
+
