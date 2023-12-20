@@ -42,6 +42,35 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.sonosthesia.utils": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.utils",
+    "com.sonosthesia.instrument": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.instrument",
+    "com.sonosthesia.xr": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.xr",
+    "com.sonosthesia.midi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.midi",
+    "com.sonosthesia.adaptivemidi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.adaptivemidi",
+    "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
+    "com.sonosthesia.signal": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.signal",
+    "com.sonosthesia.processing": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.processing",
+    "com.sonosthesia.generator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
+    "com.sonosthesia.mapping": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",
+    "com.sonosthesia.sequencer": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.sequencer",
+    "com.sonosthesia.touch": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touch"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Neuecc",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.neuecc.unirx",
+        "com.cysharp.unitask"
+      ]
+    },
+    {
+      "name": "Sonosthesia",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "com.sonosthesia"
+      ]
+    }
+  ]
 }
