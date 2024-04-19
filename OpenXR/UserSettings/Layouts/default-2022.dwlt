@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357.3334
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 143
+  controlID: 134
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 43
+  controlID: 46
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 44
+  controlID: 47
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.sonosthesia.xr
+    - Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Interactables
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Packages/com.sonosthesia.xr
+  - Packages/com.unity.xr.interaction.toolkit/Runtime/Interaction/Interactables
   m_LastFoldersGridSize: 16
   m_LastProjectPath: F:\Sonosthesia\sonosthesia-unity-testbed-vr\OpenXR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1034.3333}
-    m_SelectedIDs: 1c930000
-    m_LastClickedID: 37660
-    m_ExpandedIDs: 000000009a900000cc920000ce920000d09200001c9300002693000028930000389300003a9300003c9300005e9300006293000064930000849300006095000062950000829500001eb3000042b4000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 1186.3333}
+    m_SelectedIDs: 28880000
+    m_LastClickedID: 34856
+    m_ExpandedIDs: 00000000228500002485000026850000288500002a8500002c8500002e85000030850000328500003485000036850000388500003a8500003c8500003e850000408500004285000044850000468500004885000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a900000
+    m_ExpandedIDs: 00000000228500002485000026850000288500002a8500002c8500002e85000030850000328500003485000036850000388500003a8500003c8500003e8500004085000042850000448500004685000048850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -391,24 +391,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 22b30000
-    m_LastClickedInstanceID: 45858
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007cc4000084650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GrabTransformerRotationAxisLock
-      m_OriginalName: GrabTransformerRotationAxisLock
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 22376
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -462,7 +462,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 45858
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 22b30000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 92a1ffffa8a2ffff54a9ffff64abffffaed4ffffc8d4ffff24fbffff607c0000327d0000d47d0000cca10000
+      m_ExpandedIDs: 40f7ffff24fbffffa47b0000bc7b0000c67b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -570,7 +570,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -160, y: -26.666687}
+      snapOffset: {x: -218.66663, y: -26.666687}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -888,9 +888,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.00000011920929, y: 0.76952463, z: 0.3187747}
+    m_Target: {x: 0, y: 1.2489631, z: 0.372}
     speed: 2
-    m_Value: {x: 0.00000011920929, y: 0.76952463, z: 0.3187747}
+    m_Value: {x: 0, y: 1.2489631, z: 0.372}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -936,13 +936,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.029877907, y: 0.9574091, z: -0.26687744, w: -0.10858388}
+    m_Target: {x: -0.2603651, y: -0.0656445, z: 0.017634282, w: -0.96318644}
     speed: 2
-    m_Value: {x: -0.02986986, y: 0.95715123, z: -0.26680556, w: -0.10855464}
+    m_Value: {x: -0.26038185, y: -0.063713536, z: 0.017112318, w: -0.96324927}
   m_Size:
-    m_Target: 2.1347625
+    m_Target: 0.19484267
     speed: 2
-    m_Value: 2.1347625
+    m_Value: 0.18645231
   m_Ortho:
     m_Target: 0
     speed: 2
